@@ -1,0 +1,21 @@
+{% extends 'base.html' %}
+
+{% block content %}
+<div class="container mt-4">
+    <div class="row">
+        {% for pokenea in pokeneas %}
+        <div class="col-md-4 mb-4">
+            <div class="card text-center" style="width: 18rem;"> <!-- Añadido text-center aquí -->
+                <img src="{{ pokenea.imagen }}" class="card-img-top" alt="{{ pokenea.nombre }}">
+                <div class="card-body">
+                    <h6 class="card-subtitle mb-2 text-muted">N.º {{ '%04d' | format(pokenea.id) }}</h6>
+                    <h5 class="card-title">{{ pokenea.nombre }}</h5>
+                    <p class="card-text badge badge-success">{{ pokenea.habilidad }}</p>
+                    <p class="card-text">{{ pokenea.altura }}</p>
+                </div>
+            </div>
+        </div>
+        {% endfor %}
+    </div>
+</div>
+{% endblock %}

@@ -1,0 +1,58 @@
+[
+    {
+        "id": 1,
+        "nombre": "Pokeena1",
+        "altura": "1.5 m",
+        "habilidad": "Velocidad",
+        "imagen": "https://upload.wikimedia.org/wikipedia/commons/6/60/TWICE_LOGO.png",
+        "frase_filosofica": "Todo esfuerzo tiene su recompensa."
+    },
+    {
+        "id": 2,
+        "nombre": "Charizard",
+        "altura": "1.7 m",
+        "habilidad": "Llama",
+        "imagen": "static/images/charinea.png",
+        "frase_filosofica": "El fuego de la determinación forja el verdadero acero."
+    },
+    {
+        "id": 3,
+        "nombre": "Blastoise",
+        "altura": "1.6 m",
+        "habilidad": "Torrente",
+        "imagen": "static/images/blastinea.png",
+        "frase_filosofica": "Bajo presión, se forja el verdadero poder."
+    },
+    {
+        "id": 4,
+        "nombre": "Venusaur",
+        "altura": "2.0 m",
+        "habilidad": "Espesura",
+        "imagen": "https://i.pinimg.com/originals/37/3f/37/373f370183150947b55ca7b68248e447.png",
+        "frase_filosofica": "La paciencia es la clave para la victoria."
+    },
+    {
+        "id": 5,
+        "nombre": "Pikachu",
+        "altura": "0.4 m",
+        "habilidad": "Electricidad estática",
+        "imagen": "static/images/pikanea.png",
+        "frase_filosofica": "La chispa más pequeña puede iluminar la oscuridad."
+    },
+    {
+        "id": 6,
+        "nombre": "Snorlax",
+        "altura": "2.1 m",
+        "habilidad": "Inmunidad",
+        "imagen": "https://images.wikidexcdn.net/mwuploads/wikidex/thumb/0/0b/latest/20160904204605/Snorlax.png/800px-Snorlax.png",
+        "frase_filosofica": "La fortaleza reside en la calma."
+    },
+    {
+        "id": 7,
+        "nombre": "Jigglypuff",
+        "altura": "0.5 m",
+        "habilidad": "Cute Charm",
+        "imagen": "https://w7.pngwing.com/pngs/340/823/png-transparent-jigglypuff-pikachu-pokemon-igglybuff-pikachu-face-cat-like-mammal-head-thumbnail.png",
+        "frase_filosofica": "La armonía conquista el conflicto."
+    }
+]
