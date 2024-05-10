@@ -1,27 +1,27 @@
 [
     {
         "id": 1,
-        "nombre": "Pokeena1",
+        "nombre": "Mikato",
         "altura": "1.5 m",
         "habilidad": "Velocidad",
         "imagen": "https://upload.wikimedia.org/wikipedia/commons/6/60/TWICE_LOGO.png",
-        "frase_filosofica": "Todo esfuerzo tiene su recompensa."
+        "frase_filosofica": "One in a million."
     },
     {
         "id": 2,
         "nombre": "Charizard",
         "altura": "1.7 m",
         "habilidad": "Llama",
-        "imagen": "static/images/charinea.png",
-        "frase_filosofica": "El fuego de la determinación forja el verdadero acero."
+        "imagen": "https://www.pokemon.com/static-assets/content-assets/cms2/img/pokedex/full/006.png",
+        "frase_filosofica": "El fuego de la determinacion forja el verdadero acero."
     },
     {
         "id": 3,
         "nombre": "Blastoise",
         "altura": "1.6 m",
         "habilidad": "Torrente",
-        "imagen": "static/images/blastinea.png",
-        "frase_filosofica": "Bajo presión, se forja el verdadero poder."
+        "imagen": "https://www.pokemon.com/static-assets/content-assets/cms2/img/pokedex/full/009.png",
+        "frase_filosofica": "Bajo presion, se forja el verdadero poder."
     },
     {
         "id": 4,
@@ -35,9 +35,9 @@
         "id": 5,
         "nombre": "Pikachu",
         "altura": "0.4 m",
-        "habilidad": "Electricidad estática",
-        "imagen": "static/images/pikanea.png",
-        "frase_filosofica": "La chispa más pequeña puede iluminar la oscuridad."
+        "habilidad": "Electricidad estatica",
+        "imagen": "https://www.latercera.com/resizer/j-ZtEKzoY5fUQtLLGOVNBOpG7Aw=/arc-anglerfish-arc2-prod-copesa/public/6O3E6FX56FCYFGW5NZFOKYGNY4.jpg",
+        "frase_filosofica": "La chispa más pequena puede iluminar la oscuridad."
     },
     {
         "id": 6,
@@ -53,6 +53,6 @@
         "altura": "0.5 m",
         "habilidad": "Cute Charm",
         "imagen": "https://w7.pngwing.com/pngs/340/823/png-transparent-jigglypuff-pikachu-pokemon-igglybuff-pikachu-face-cat-like-mammal-head-thumbnail.png",
-        "frase_filosofica": "La armonía conquista el conflicto."
+        "frase_filosofica": "La armonia conquista el conflicto."
     }
 ]

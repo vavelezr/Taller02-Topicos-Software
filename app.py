@@ -38,14 +38,14 @@ def index():
 @app.route('/api/pokenea')
 def api_pokenea():
     pokenea = random.choice(pokeneas)
-    pokenea['id_contenedor'] = get_container_id()  # Asumiendo que tienes una función para obtener esto
-    return render_template('filosofico.html',pokeneas=pokenea)
+    return render_template('filosofico.html',pokenea=pokenea)
 
 
 #Acá se muestra el pokenea
 @app.route('/pokeneas')
 def show_pokeneas():
-    return render_template('pokenea.html', pokeneas=pokeneas)
+    pokenea = random.choice(pokeneas)
+    return render_template('pokenea.html',pokenea=pokenea)
 
 
 
