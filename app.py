@@ -8,7 +8,6 @@ app = Flask(__name__)
 def cargar_pokeneas():
     with open('data/pokeneas.json', 'r') as archivo:
         pokeneas = json.load(archivo)
-    print(pokeneas)  # Esto imprimirá el contenido de pokeneas en la consola
     return pokeneas
 
 pokeneas = cargar_pokeneas()
@@ -21,21 +20,21 @@ def index():
 @app.route('/api/pokenea')
 def api_pokenea():
     pokenea = random.choice(pokeneas)
-    #pokenea['id_contenedor'] = os.uname()[1]
+    pokenea['id_contenedor'] = os.uname()[1]
     return render_template('filosofico.html',pokenea=pokenea)
 
 
 @app.route('/pokeneas')
 def show_pokeneas():
     pokenea = random.choice(pokeneas)
-    #pokenea['id_contenedor'] = os.uname()[1]
+    pokenea['id_contenedor'] = os.uname()[1]
     return render_template('pokenea.html',pokenea=pokenea)
 
 
 @app.route('/pokeneas/json')
 def show_pokenea_json():
     pokenea = random.choice(pokeneas)
-    #pokenea['id_contenedor'] = os.uname()[1]
+    pokenea['id_contenedor'] = os.uname()[1]
     data = {
         'id': pokenea['id'],
         'nombre': pokenea['nombre'],
