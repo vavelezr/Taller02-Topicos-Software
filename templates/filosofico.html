@@ -5,13 +5,13 @@
     <div class="row justify-content-center">
         <div class="col-md-6">
             <div class="card text-center">
-                <img src="{{ pokeneas['imagen'] }}" class="card-img-top" alt="Imagen del Pokenea">
+                <img src="{{ pokenea.imagen }}" class="card-img-top" alt="Imagen del Pokenea">
                 <div class="card-body">
                     <h5 class="card-title">Frase Filosófica del Pokenea</h5>
-                    <p class="card-text">{{ pokeneas['frase'] }}</p>
+                    <p class="card-text">{{ pokenea.frase_filosofica }}</p>
                 </div>
                 <ul class="list-group list-group-flush">
-                    <li class="list-group-item">ID del Contenedor: {{ pokeneas['id_contenedor'] }}</li>
+                    <li class="list-group-item">ID del Contenedor: {{ pokenea.id_contenedor }}</li>
                 </ul>
             </div>
         </div>
