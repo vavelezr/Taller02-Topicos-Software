@@ -2,7 +2,7 @@
 FROM python:3.9
 
 # Establece el directorio de trabajo en /app
-WORKDIR /app
+WORKDIR /usr/src/app
 
 # Copia el archivo requirements.txt al directorio de trabajo
 COPY requirements.txt requirements.txt
