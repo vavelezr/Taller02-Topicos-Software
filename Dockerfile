@@ -1,20 +1,16 @@
-# Usa una imagen base de Python
-FROM python:3.9
+FROM python:3.8
 
-# Establece el directorio de trabajo en /app
-WORKDIR /app
+# Create app directory
+WORKDIR /usr/src/app
 
-# Copia el archivo requirements.txt al directorio de trabajo
-COPY requirements.txt requirements.txt
-
-# Instala las dependencias
-RUN pip install -r requirements.txt
-
-# Copia el contenido actual del directorio al directorio de trabajo en la imagen
+# Copy the Flask app source to the working directory
 COPY . .
 
-# Expone el puerto 5000 para que la aplicación Flask pueda ser accedida
-EXPOSE 5000
+# Install Flask
+RUN pip install -r requirements.txt
 
-# Define el comando por defecto para ejecutar tu aplicación Flask
+# Expose the required port
+EXPOSE 8080
+
+# Specify the command to run the Flask app
 CMD ["python", "app.py"]
