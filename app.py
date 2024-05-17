@@ -40,7 +40,7 @@ def show_pokenea_json():
         'nombre': pokenea['nombre'],
         'altura': pokenea['altura'],
         'habilidad': pokenea['habilidad'],
-        #'id_contenedor': pokenea['id_contenedor'],
+        'id_contenedor': pokenea['id_contenedor'],
     }
     return jsonify(data)
 
